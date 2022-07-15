@@ -1,5 +1,6 @@
 name: odrum
 type: sw.application
+joinable: true
 description: >-
   Build a single or multi-room drum machine
 fleetcta: ODrum
