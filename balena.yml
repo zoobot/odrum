@@ -1,8 +1,8 @@
-name: onedrum
+name: odrum
 type: sw.application
 description: >-
   Build a single or multi-room drum machine
-fleetcta: One Drum
+fleetcta: ODrum
 post-provisioning: >-
   ## Usage instructions
 
@@ -14,12 +14,12 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/zoobot/onedrum'
+      url: 'https://github.com/zoobot/odrum'
   logo:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/zoobot/onedrum/master/logo.png
+        https://raw.githubusercontent.com/zoobot/odrum/master/logo.png
 data:
   defaultDeviceType: raspberry-pi
   supportedDeviceTypes:
