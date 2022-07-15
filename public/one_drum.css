@@ -1,0 +1,38 @@
+html,
+body {
+  background-color: #FFFFFF;
+  height: 100%;
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding:0;
+}
+
+.dm__nav__controller {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.dm__nav__controller__ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.dm__nav__controller__ul__li {
+  font-size: 50vmax;
+  display: flex;
+  justify-content: center;
+  height: 94vh;
+  width: 94vw;
+  max-width: 600px;
+  max-height: 600px;
+  color: white;
+  background-color: black;
+}
+
+.dm__nav__controller__ul__li--active {
+  opacity: .5;
+}

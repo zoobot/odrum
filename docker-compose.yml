@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  onedrum:
+    container_name: onedrum
+    build: ./
+    privileged: true
+    ports:
+      - 3000:80
